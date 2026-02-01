@@ -32,7 +32,7 @@ const HeroSection = () => {
             Hello, I'm
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 bg-gradient-to-r from-foreground via-primary to-accent bg-clip-text text-transparent">
-            Your Name
+            Shiva Chaurasiya
           </h1>
           <p className="text-xl md:text-2xl text-foreground/80 mb-2 font-light">
             Django Backend Developer
@@ -66,7 +66,7 @@ const HeroSection = () => {
           {/* Social Links */}
           <div className="flex items-center justify-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/Shiva-Chaurasiya-01"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -75,7 +75,7 @@ const HeroSection = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/shiva-chaurasiya-29632436b/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -84,7 +84,7 @@ const HeroSection = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:shivachaurasiya.9298@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
               aria-label="Email"
             >

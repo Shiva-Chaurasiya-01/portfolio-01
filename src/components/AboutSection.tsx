@@ -23,18 +23,18 @@ const AboutSection = () => {
       description: "Integrating LLMs and AI capabilities into applications",
       skills: skills.ai,
     },
-    {
-      icon: Database,
-      title: "DevOps & Cloud",
-      description: "Deploying and managing production infrastructure",
-      skills: skills.devops,
-    },
-    {
-      icon: Code2,
-      title: "Frontend Integration",
-      description: "Creating seamless full-stack experiences",
-      skills: skills.frontend,
-    },
+    // {
+    //   icon: Database,
+    //   title: "DevOps & Cloud",
+    //   description: "Deploying and managing production infrastructure",
+    //   skills: skills.devops,
+    // },
+    // {
+    //   icon: Code2,
+    //   title: "Frontend Integration",
+    //   description: "Creating seamless full-stack experiences",
+    //   skills: skills.frontend,
+    // },
   ];
 
   return (
@@ -72,7 +72,7 @@ const AboutSection = () => {
               <h3 className="text-foreground font-semibold mb-3">Quick Facts</h3>
               <ul className="space-y-2 text-muted-foreground text-sm">
                 <li className="flex items-center gap-2">
-                  <span className="text-primary">▹</span> Based in [Your Location]
+                  <span className="text-primary">▹</span> Based in Kanpur, India
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-primary">▹</span> Open to remote opportunities

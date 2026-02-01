@@ -70,8 +70,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "hello@example.com",
-      href: "mailto:hello@example.com",
+      value: "shivachaurasiya.9298@gmail.com",
+      href: "mailto:shivachaurasiya.9298@gmail.com",
     },
     {
       icon: MapPin,
@@ -81,8 +81,8 @@ const ContactSection = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/Shiva-Chaurasiya-01", label: "GitHub" },
+    { icon: Linkedin, href: "https://linkedin.com/in/shiva-chaurasiya-29632436b/", label: "LinkedIn" },
   ];
 
   return (
