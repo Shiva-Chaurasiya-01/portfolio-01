@@ -4,9 +4,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+    { icon: Github, href: "https://github.com/Shiva-Chaurasiya-01", label: "GitHub" },
+    { icon: Linkedin, href: "https://linkedin.com/in/shiva-chaurasiya-29632436b/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:shivachaurasiya.9298@gmail.com", label: "Email" },
   ];
 
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            © {currentYear} Your Name. Built with{" "}
+            © {currentYear} Shiva Chaurasiya. Built with{" "}
             <Heart className="h-4 w-4 text-primary fill-current" /> and code.
           </p>
 
